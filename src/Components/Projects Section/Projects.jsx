@@ -3,14 +3,41 @@ import './projects.css'
 import {FiYoutube} from 'react-icons/fi'
 import {BsGithub} from 'react-icons/bs'
 
-
+// img 
+import img from '../../assets/img.jpg'
 
 
 const Projects = () => {
   const data= [
     {
       id:1,
-      image: '',
+      image: img,
+      demo: '',
+      liveLink:'',
+      github: '',
+      title: "Jira Clone",
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+      tech1:'Html',
+      tech2: 'CSS',
+      tech3: 'ReactJS',
+      tech4:'Ant Design'
+    },
+    {
+      id:1,
+      image: img,
+      demo: '',
+      liveLink:'',
+      github: '',
+      title: "Jira Clone",
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+      tech1:'Html',
+      tech2: 'CSS',
+      tech3: 'ReactJS',
+      tech4:'Ant Design'
+    },
+    {
+      id:1,
+      image: img,
       demo: '',
       liveLink:'',
       github: '',

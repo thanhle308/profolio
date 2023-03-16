@@ -24,6 +24,7 @@ const Skills = () => {
       </div>
 
       <div className="skillsContainer grid">
+
         <div className="skillGroup">
           <div className="groupTitle">
             <h2 className="title">Web Development</h2>
@@ -70,9 +71,7 @@ const Skills = () => {
 
           </div>
         </div>
-      </div>
 
-      <div className="skillsContainer grid">
         <div className="skillGroup">
           <div className="groupTitle">
             <h2 className="title">UI/UX Design</h2>
@@ -105,9 +104,7 @@ const Skills = () => {
 
           </div>
         </div>
-      </div>
 
-      <div className="skillsContainer grid">
         <div className="skillGroup">
           <div className="groupTitle">
             <h2 className="title">Other Skills</h2>
@@ -133,7 +130,9 @@ const Skills = () => {
 
           </div>
         </div>
+
       </div>
+
 
 
     </section>

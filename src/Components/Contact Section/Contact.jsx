@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './contact.css'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { TbArrowBigRightLines } from 'react-icons/tb'
 import { AiFillLinkedin } from 'react-icons/ai'
-import {SiZalo} from 'react-icons/si'
+import { SiZalo } from 'react-icons/si'
+
+// EmailJs 
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_1x9h7aq', 'template_jjlkcyg', form.current, 'b8czQTn-dtHtBXBnT')
+      e.target.reset()
+  };
   return (
     <section id='contact' className='contact section container'>
 
@@ -68,6 +79,21 @@ const Contact = () => {
 
           </div>
         </div>
+
+        <div className="form grid">
+          <h3>Send me an email</h3>
+
+          <form ref={form} onSubmit={sendEmail}>
+            <input name='name' type="text" placeholder='Enter your Name' />
+            <input name='email' type="text" placeholder='Enter your Email' />
+            <textarea name="message" placeholder='Enter your message'></textarea>
+            <button className='formBtn' type='submit' name='submit'>
+              Send Email
+            </button>
+          </form>
+        </div>
+
+
       </div>
 
     </section>

@@ -10,19 +10,20 @@ const Home = () => {
   return (
     <section id='home' className='home section'>
 
-      {/* <div className="leftIcons">
+      <div className="leftIcons">
         <div className="socials grid">
-          <a href="" target='_blank'>
+          <a href="https://github.com/thanhle308" target='_blank'>
             <AiFillGithub className='icon' />
           </a>
-          <a href="" target='_blank'>
+          {/* <a href="" target='_blank'>
             <CiTwitter className='icon' />
-          </a>
-          <a href="" target='_blank'>
+          </a> */}
+          <a href="https://www.facebook.com/profile.php?id=100084415954319" target='_blank'>
             <BsFacebook className='icon' />
           </a>
+          <div className="line"></div>
         </div>
-      </div> */}
+      </div>
 
         {/* Home Content  */}
       <div className="container homeContainer">
@@ -54,7 +55,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="rightEmail">
+      <div className="rightEmail">
         <div>
           <div className="emailAddress">
             <a href="https://mailto:youremail@gmail.com" target='_blank'>
@@ -63,8 +64,9 @@ const Home = () => {
           </div>
 
           <div className="line"></div>
+          
         </div>
-      </div> */}
+      </div>
 
     </section>
   )

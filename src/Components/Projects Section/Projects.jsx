@@ -23,7 +23,7 @@ const Projects = () => {
       tech4:'Ant Design'
     },
     {
-      id:1,
+      id:2,
       image: img,
       demo: '',
       liveLink:'',
@@ -36,7 +36,7 @@ const Projects = () => {
       tech4:'Ant Design'
     },
     {
-      id:1,
+      id:3,
       image: img,
       demo: '',
       liveLink:'',

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import {TbCloudDownload} from 'react-icons/tb'
+import { TbCloudDownload } from 'react-icons/tb'
 import img from '../../assets/img2-removebg.png'
 
 const About = () => {
@@ -21,18 +21,24 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, mollitia consequatur! Expedita dignissimos voluptatem excepturi?
+            I'm a Frontend Developer. I’m extremely passionate about web development especially
+            Frontend Development, helping businesses and improve their online presence. Currently, I
+            have studied Software Engineering at Van Lang University (2016 - now), I have finished
+            Frontend Development Course at CyberSoft Academy and had nearly 1 year of working
+            experience in ReactJS. Now I currently aim to learn as much as I can in a work environment
+            and to further my own abilities in a professional setting.
             <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, illo!
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis modi ducimus nesciunt debitis assumenda distinctio beatae nemo cum officia sequi!
+            I am passionate about learning new technologies and always keep concentrated on improving my self skills. Being patient
+            and responsible for working help me implement completely assinged tasks. Hope that I can contribute to the development of
+            your company.
           </h4>
 
-        <div className="aboutBtn">
-          <a href="cv.pdf" download="cv.pdf" className='flex'>
-            Download CV <TbCloudDownload className='icon'/>
-          </a>
-        </div>
+          <div className="aboutBtn">
+            <a href="cv.pdf" download="cv.pdf" className='flex'>
+              Download CV <TbCloudDownload className='icon' />
+            </a>
+          </div>
 
         </div>
 

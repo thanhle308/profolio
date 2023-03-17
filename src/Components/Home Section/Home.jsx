@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 import { CiTwitter } from 'react-icons/ci'
 import { BsFacebook } from 'react-icons/bs'
 import { FaHandPointRight } from 'react-icons/fa'
-import {FiChevronsDown} from 'react-icons/fi'
+import { FiChevronsDown } from 'react-icons/fi'
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-        {/* Home Content  */}
+      {/* Home Content  */}
       <div className="container homeContainer">
         <span className="introText">
           Hi my name is,
@@ -34,10 +34,10 @@ const Home = () => {
           Thanh
         </h1>
         <span className='subTitle'>
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          I'm a Frontend Developer.
         </span>
         <p className="homeParagraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Welcome to my profile website
         </p>
 
         <div className="lowerHomeSection">
@@ -49,7 +49,7 @@ const Home = () => {
 
           <div className="scrollDiv">
             <a href="#about" className="flex">
-             <h6 className='scroll'> Scroll Down</h6> <FiChevronsDown className='icon'/>
+              <h6 className='scroll'> Scroll Down</h6> <FiChevronsDown className='icon' />
             </a>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
 
           <div className="line"></div>
-          
+
         </div>
       </div>
 

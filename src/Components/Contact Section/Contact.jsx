@@ -2,8 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { TbArrowBigRightLines } from 'react-icons/tb'
-import { AiFillLinkedin } from 'react-icons/ai'
-import { SiZalo } from 'react-icons/si'
+import { SiZalo , SiGmail} from 'react-icons/si'
 
 // EmailJs 
 import emailjs from '@emailjs/browser';
@@ -53,23 +52,23 @@ const Contact = () => {
               <SiZalo className='icon' />
               <h4>Zalo</h4>
               <span className='userName'>
-                @im.chithanh
+                0967300895
               </span>
               <div>
-                <a href="https://www.facebook.com/profile.php?id=100084415954319" className='flex' target='_blank'>
+                <a className='flex'>
                   Send Message <TbArrowBigRightLines className='icon' />
                 </a>
               </div>
             </div>
 
             <div className="card">
-              <AiFillLinkedin className='icon' />
-              <h4>Linkedin</h4>
+              <SiGmail className='icon' />
+              <h4>Gmail</h4>
               <span className='userName'>
-                @im.chithanh
+                lechithanh.bt@gmail.com
               </span>
               <div>
-                <a href="https://www.facebook.com/profile.php?id=100084415954319" className='flex' target='_blank'>
+                <a className='flex' target='_blank'>
                   Send Message <TbArrowBigRightLines className='icon' />
                 </a>
               </div>

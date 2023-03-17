@@ -38,6 +38,7 @@ const Navbar = () => {
               <span className='headerNumber'>1.</span> About
             </a>
           </li>
+      
           <li className="navItem">
             <a href="#skills" className="navLink">
               <span className='headerNumber'>2.</span> Skills

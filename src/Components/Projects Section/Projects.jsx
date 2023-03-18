@@ -8,6 +8,7 @@ import img from '../../assets/img.jpg'
 import project_5 from '../../assets/project/project_5.PNG'
 import project_4 from '../../assets/project/project_4.PNG'
 import project_3 from '../../assets/project/project_3.PNG'
+import project_2 from '../../assets/project/project_2.PNG'
 import project_1 from '../../assets/project/project_1.PNG'
 
 
@@ -23,6 +24,19 @@ const Projects = () => {
       github: 'https://github.com/thanhle308/Jira-Clone-Redux-ToolKit',
       title: "Jira Bugs",
       desc: 'Trang quản lý project bao gồm các chức năng add,remove,edit : {project , task , user} , login , logout , drop&drap task vv.vv... . Trang được sử dụng Redux toolkit ,ngoài ra project này cũng được convert ra project khác sử dụng Redux Saga ',
+      tech1:'Html CSS',
+      tech2: 'Ant Design',
+      tech3: 'ReactJS',
+      tech4:'RESTful API'
+    },
+    {
+      id:2,
+      image: project_2,
+      demo: 'https://capstone-movie-reactjs-tau.vercel.app/',
+      liveLink:'https://www.youtube.com/watch?v=gJthbK7m2CI&t=276s',
+      github: 'https://github.com/KhaDoan209/Capstone-Movie-Reactjs',
+      title: "Movie Ticket",
+      desc: 'Trang Web đặt vé xem phim (có real time nhiều người đặt cùng lúc ) ngoài ra còn các chức năng quản lí phim vv..vv',
       tech1:'Html CSS',
       tech2: 'Ant Design',
       tech3: 'ReactJS',
